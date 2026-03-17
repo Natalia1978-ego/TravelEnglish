@@ -1,8 +1,7 @@
-import { defineConfig } from 'vite'
-import react from '@vitejs/plugin-react'
+import { defineConfig } from 'vite';
 
+// Простой конфиг без плагинов
 export default defineConfig({
-  plugins: [react()],
-  base: '/TravelEnglish/',
-})
-
+root: '.',
+base: '/TravelEnglish/', // ВАЖНО: имя репозитория c учётом регистра
+});
